@@ -1,0 +1,43 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	int tests;
+	int score1;
+	int score2;
+	int score3;
+	int score4;
+	int score5;
+	int pass;
+
+	cout << "How many test scores do you have this semester?" << endl;
+	cin >> tests;
+	cout << "Enter Score 1" << endl;
+	cin >> score1;
+	cout << "Enter Score 2" << endl;
+	cin >> score2;
+	cout << "Enter Score 3" << endl;
+	cin >> score3;
+	cout << "Enter Score 4" << endl;
+	cin >> score4;
+	cout << "Enter Score 5" << endl;
+	cin >> score5;
+	cout << "What is required to pass?" << endl;
+	cin >> pass;
+	if (((score1 + score2 + score3 + score4 + score5) / 5) >= pass){
+		cout << "You passed!" << endl;
+	}
+	else{
+		cout << "You failed!" << endl;
+	}
+
+
+
+
+
+
+
+
+	return 0;
+}
